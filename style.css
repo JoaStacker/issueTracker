@@ -1,0 +1,45 @@
+.Closed *{
+    opacity: 0.5;
+}
+
+#btn-Closed{
+    opacity: 1;
+    background-color: rgb(107, 200, 114);
+    outline: none;
+    border: 1px solid  rgb(107, 200, 114);
+}
+
+#btn-Open{
+    opacity: 1;
+}
+
+#error-state-Closed{
+    opacity: 1; 
+    color: red;
+    font-weight: 600;
+}
+
+form{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+}
+
+form *{
+    margin-bottom: 10px;
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+h1 span{
+    font-size: 15px;
+}
+
+.well{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(238, 238, 238);
+}
